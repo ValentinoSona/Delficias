@@ -44,6 +44,17 @@ a:hover, a:focus {
   outline: none;
 }
 
+.a-preguntas{
+  color:#000000 ;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.a-preguntas:hover{
+  transition: all 0.5s;
+  color: pink;
+}
+
 .row.m0 {
   margin: 0px;
 }
@@ -1734,7 +1745,7 @@ i:before {
 /* Banner Area css
 ============================================================================================ */
 .banner_area {
-  background: url(../img/banner/banner-bg.jpg) no-repeat scroll center center;
+  background: url(../img/kazuo-ota-sF90YT-7ovI-unsplash.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -4834,7 +4845,7 @@ i:before {
 /* Bakery Video Area css
 ============================================================================================ */
 .bakery_video_area {
-  background: url(../img/video/video-1.jpg) no-repeat scroll center center;
+  background: url(../img/tina-guina-s8_7AqkzCWY-unsplash.jpg) no-repeat scroll center center;
   background-size: cover;
   padding: 120px 0px;
 }
