@@ -55,6 +55,27 @@ a:hover, a:focus {
   color: pink;
 }
 
+.btn-wpp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wpp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background-color: #fff;
+}
 .row.m0 {
   margin: 0px;
 }
@@ -2592,7 +2613,7 @@ i:before {
 
 .discover_menu_area:before {
   content: "";
-  background: url(../img/menu-left.png) no-repeat scroll center center;
+  
   width: 260px;
   height: 480px;
   position: absolute;
@@ -2605,7 +2626,7 @@ i:before {
 
 .discover_menu_area:after {
   content: "";
-  background: url(../img/menu-right.png) no-repeat scroll center center;
+  
   width: 260px;
   height: 640px;
   position: absolute;
@@ -2670,7 +2691,6 @@ i:before {
   float: right;
   color: #e3764b;
   font-size: 20px;
-  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
