@@ -400,6 +400,15 @@ i:before {
   top: 0px;
   z-index: 30;
 }
+@media (max-width: 480px){
+  .main_header_area {
+    position: initial;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 30;
+  }
+}
 
 .main_header_area + section, .main_header_area + div, .main_header_area + .row {
   margin-top: 135px;
